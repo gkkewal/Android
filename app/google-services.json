@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490575346157",
+    "project_id": "colingo-397307",
+    "storage_bucket": "colingo-397307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490575346157:android:ab720cc29fe00dd7f78fe4",
+        "android_client_info": {
+          "package_name": "com.example.colingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490575346157-ngbgcci0gh1ledtns1undjumimpjmrin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjrh9n0o00CtYNtBZyB920aL090iZmbjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490575346157-ngbgcci0gh1ledtns1undjumimpjmrin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
