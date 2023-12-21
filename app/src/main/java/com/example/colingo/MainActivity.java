@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int READ_REQUEST_CODE = 42;
     private ArrayList<String> translationResults = new ArrayList<>();
     private ArrayList<String> telephoneResults = new ArrayList<>();
-    Translator englishGermanTranslator;
+    Translator englishGujaratiTranslator;
     private Object objectdownload;
     private BufferedReader reader;
     //private static Uri uri;
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         TranslatorOptions options = new TranslatorOptions.Builder()
                 .setSourceLanguage(TranslateLanguage.ENGLISH)
                 .setTargetLanguage(TranslateLanguage.GUJARATI).build();
-        englishGermanTranslator = Translation.getClient(options);
+        englishGujaratiTranslator = Translation.getClient(options);
 
         Button loadButton = findViewById(R.id.loadButton);
         Button transButton = findViewById(R.id.translate);
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         DownloadConditions conditions = new DownloadConditions.Builder()
                 .requireWifi()
                 .build();
-        englishGermanTranslator.downloadModelIfNeeded(conditions).addOnSuccessListener(
+        englishGujaratiTranslator.downloadModelIfNeeded(conditions).addOnSuccessListener(
                 new OnSuccessListener() {
                     @Override
                     public void onSuccess(Object o) {
