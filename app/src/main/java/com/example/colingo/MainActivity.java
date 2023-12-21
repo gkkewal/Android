@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void translator(String input, final TranslationCallback callback) {
-        englishGermanTranslator.translate(input).addOnSuccessListener(
+        englishGujaratiTranslator.translate(input).addOnSuccessListener(
                 new OnSuccessListener() {
                     @Override
                     public void onSuccess(Object o) {
